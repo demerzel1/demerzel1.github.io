@@ -25,10 +25,10 @@ author:
   avatar           : "profile.png"
   name             : "Zhaoxin Meng"
   pronouns         : # example: "she/her"  
-  bio              : "Senior Machine Learning Engineer @DiDi Global"
+  bio              : "Senior Machine Learning Engineer @DiDi Global Autonomous Driving"
   location         : "China"
   employer         : "DiDi Global"
-  uri              : "https://web.didiglobal.com/"
+  uri              : #
   email            : "zxmeng98@gmail.com" 
 
   # Academic websites
