@@ -28,7 +28,7 @@ author:
   bio              : "Senior Machine Learning Engineer @DiDi Global"
   location         : "China"
   employer         : "DiDi Global"
-  uri              : # URL
+  uri              : "https://web.didiglobal.com/"
   email            : "zxmeng98@gmail.com" 
 
   # Academic websites
@@ -62,7 +62,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/zhaoxin-meng-a0b248111/"
+  linkedin         : "zhaoxin-meng-a0b248111"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
