@@ -7,13 +7,43 @@ redirect_from:
   - /about.html
 ---
 
-This is Zhaoxin Meng, a Senior Machine Learning Engineer in DiDi Global Autonomous Driving team. in computer vision and multi-modal perception for autonomous driving. I hold a Master of Engineering from Beijing University of Posts and Telecommunications, and my work is driven by a passion for solving complex, real-world problems in autonomous systems.
+I am currently a **Staff Machine Learning Engineer** at **HONOR Robotics Lab**, focusing on **Embodied AI**, **Vision-Language-Action (VLA)** models, and World Models. 
 
-Education
-======
+Previously, I worked as a Senior Machine Learning Engineer at **DiDi Global (Voyager Group)**, specializing in autonomous driving perception and generative data synthesis. I received my Master's degree from **Beijing University of Posts and Telecommunications (BUPT)** in 2022.
 
-Work Experience
-======
+My research interests lie in **Robotics Perception**, **Large Multimodal Models**, and **Data Synthesis** for autonomous systems.
 
-Intern Experience
-======
+### 💼 Work Experience
+
+**HONOR Robotics Lab** | *Staff Machine Learning Engineer* *Beijing, Oct 2025 - Present*
+
+**DiDi Global - Voyager Group** | *Senior Machine Learning Engineer* *Beijing, Jun 2022 - Sep 2025*
+
+**Internships**
+* **DiDi Global**: Autonomous Driving Perception (2021 - 2022)
+* **ByteDance (TikTok Ads)**: Deep Learning & CVR Prediction (2021)
+* **Microsoft Research Asia (MSRA)**: Multi-Modal Document Understanding (2020 - 2021)
+* **SenseTime**: ADAS Perception (2020)
+* **ByteDance (AI Lab)**: Speech & Deep Learning (2019 - 2020)
+
+### 🎓 Education
+
+* **Beijing University of Posts and Telecommunications (BUPT)** | *M.E. in Computer Science* (2019 - 2022)
+* **Donghua University** | *B.E. in Network Engineering* (2015 - 2019)
+* **Mid Sweden University** | *Exchange Student* (2018 - 2019)
+
+### 📝 Selected Publications & Patents
+
+**Papers**
+* **[IJCNN 2021]** **Meng Zhaoxin**, et al. *MF-NET: Meta fusion network for 3d object detection.*
+* **[ITAIC 2019]** Wang Shaoyu, ..., **Meng Zhaoxin**, et al. *Edge-aware fully convolutional network with CRF-RNN layer for hippocampus segmentation.*
+
+**Patents**
+* **[CN117372997A]** *An obstacle recognition method, device, vehicle and electronic equipment.* (2023)
+* **[CN114332494A]** *3D object detection and recognition method based on multi-source fusion in vehicle-road collaborative scenarios.* (2021)
+
+### 🏆 Honors & Awards
+
+* **Excellent New Graduate Award**, DiDi Voyager (2023)
+* **Star of Tomorrow**, Microsoft Research Asia (2021)
+* **Bronze Award**, ACM-ICPC Beijing Regional (2017)
