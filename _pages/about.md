@@ -7,15 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a **Staff Machine Learning Engineer** at **HONOR Robotics Lab**, focusing on **Embodied AI**, **Vision-Language-Action (VLA)** models, and World Models. 
+I am currently a **Staff Machine Learning Engineer** at **HONOR**. 
 
-Previously, I worked as a Senior Machine Learning Engineer at **DiDi Global (Voyager Group)**, specializing in autonomous driving perception and generative data synthesis. I received my Master's degree from **Beijing University of Posts and Telecommunications (BUPT)** in 2022.
-
-My research interests lie in **Robotics Perception**, **Large Multimodal Models**, and **Data Synthesis** for autonomous systems.
+Previously, I worked as a Senior Machine Learning Engineer at **DiDi Global (Voyager Group)**. I received my Master's degree from **Beijing University of Posts and Telecommunications (BUPT)** in 2022.
 
 ### 💼 Work Experience
 
-**HONOR Robotics Lab** | *Staff Machine Learning Engineer* *Beijing, Oct 2025 - Present*
+**HONOR** | *Staff Machine Learning Engineer* *Beijing, Oct 2025 - Present*
 
 **DiDi Global - Voyager Group** | *Senior Machine Learning Engineer* *Beijing, Jun 2022 - Sep 2025*
 
