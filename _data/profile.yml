@@ -1,6 +1,8 @@
 # Updated September 2026 using the LinkedIn profile text supplied by the owner.
 # Publication and legacy award details are documented in README.md.
 name: Zhaoxin Meng
+portrait: /images/zhaoxin-meng.jpg
+avatar: /images/zhaoxin-avatar.png
 role: Industrial PhD & Doctoral Researcher
 team: Einride · University of Gothenburg · Chalmers
 location: Gothenburg, Sweden
@@ -131,3 +133,5 @@ awards:
   - title: ACM-ICPC Beijing Regional · Bronze Award
     organization: ACM International Collegiate Programming Contest
     year: 2017
+
+interests: I’m a photography enthusiast, with a particular love for street photography and capturing everyday moments.

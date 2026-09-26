@@ -9,12 +9,17 @@ redirect_from:
 ---
 {% assign profile = site.data.profile %}
 <section class="intro" aria-labelledby="intro-title">
-  <h1 id="intro-title">{{ profile.name }}</h1>
-  <p class="intro-role">Industrial PhD at Einride, Doctoral Researcher at Chalmers and GU.</p>
-  <p class="muted">{{ profile.location }}</p>
-  <div class="profile-links">
-    {% for link in profile.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}
-    <a href="mailto:{{ profile.email }}">Email</a>
+  <div class="intro-heading">
+    <div class="intro-identity">
+      <h1 id="intro-title">{{ profile.name }}</h1>
+      <p class="intro-role">Industrial PhD at Einride, Doctoral Researcher at Chalmers and GU.</p>
+      <p class="muted">{{ profile.location }}</p>
+      <div class="profile-links">
+        {% for link in profile.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}
+        <a href="mailto:{{ profile.email }}">Email</a>
+      </div>
+    </div>
+    <img class="profile-portrait" src="{{ profile.portrait | relative_url }}" alt="Portrait of Zhaoxin Meng" width="420" height="564" fetchpriority="high">
   </div>
   <p class="intro-bio">{{ profile.about }}</p>
   <p class="muted">My background spans robotics, autonomous driving, 3D perception, and multi-modal learning.</p>
@@ -43,4 +48,11 @@ redirect_from:
 <section class="profile-section" aria-labelledby="awards-title">
   <h2 id="awards-title">Awards</h2>
   {% include profile-awards.html %}
+</section>
+<section class="profile-section interests-section" aria-labelledby="interests-title">
+  <div>
+    <h2 id="interests-title">Personal interests</h2>
+    <p>{{ profile.interests }}</p>
+  </div>
+  <img class="personal-avatar" src="{{ profile.avatar | relative_url }}" alt="Illustrated avatar of Zhaoxin Meng with a robot" width="1254" height="1254" loading="lazy" decoding="async">
 </section>

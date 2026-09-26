@@ -34,6 +34,14 @@ strong { font-weight: 600; }
 .site-header nav a { color: var(--muted); }
 .site-header nav a[aria-current] { color: var(--ink); text-decoration: underline; text-underline-offset: 6px; }
 .intro, .page-intro { padding: 44px 0 34px; }
+.intro-heading { display: grid; grid-template-columns: minmax(0, 1fr) 132px; align-items: center; gap: 36px; }
+.intro-identity { min-width: 0; }
+.profile-portrait { display: block; width: 132px; height: auto; border-radius: 8px; }
+.intro-identity > .muted { font-size: 14px; }
+.interests-section { display: grid; grid-template-columns: minmax(0, 1fr) 132px; align-items: center; gap: 36px; }
+.interests-section h2 { margin-bottom: 12px; }
+.interests-section p { max-width: 590px; color: var(--muted); }
+.personal-avatar { display: block; width: 132px; height: auto; border-radius: 12px; }
 .intro-role { margin-top: 12px; font-size: 16px; }
 .intro > .muted { font-size: 14px; }
 .profile-links { display: flex; flex-wrap: wrap; gap: 10px 22px; margin-top: 16px; font-size: 14px; }
@@ -103,6 +111,12 @@ strong { font-weight: 600; }
 .internship-row .organization-logo { width: 40px; height: 40px; padding: 5px; border-radius: 6px; }
 
 @media (max-width: 640px) {
+  .intro-heading { grid-template-columns: minmax(0, 1fr) 96px; align-items: start; gap: 20px; }
+  .profile-portrait { width: 96px; }
+  .intro-heading .profile-links { gap: 8px 16px; }
+  .interests-section { grid-template-columns: minmax(0, 1fr) 100px; gap: 20px; }
+  .personal-avatar { width: 100px; }
+
   .affiliation-logos { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 16px; padding: 22px 16px; }
   .organization-row { grid-template-columns: 44px minmax(0, 1fr); gap: 12px; }
   .organization-logo { width: 44px; height: 44px; padding: 5px; }
@@ -125,6 +139,11 @@ strong { font-weight: 600; }
 }
 
 @media (max-width: 360px) {
+  .intro-heading { grid-template-columns: minmax(0, 1fr) 80px; gap: 16px; }
+  .profile-portrait { width: 80px; }
+  .interests-section { grid-template-columns: minmax(0, 1fr) 84px; gap: 16px; }
+  .personal-avatar { width: 84px; }
+
   .wrap { width: calc(100% - 32px); }
   .site-header nav { gap: 13px; font-size: 12px; }
 }
