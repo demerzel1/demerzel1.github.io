@@ -1,12 +1,19 @@
 ---
-layout: archive
-title: "Publications"
+layout: profile
+title: Research
 permalink: /publications/
-author_profile: true
+description: Selected publications and patents by Zhaoxin Meng in 3D perception, sensor fusion, and computer vision.
 ---
-
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-{% include base_path %}
+<header class="page-intro">
+  <h1>Research</h1>
+  <p>Selected publications and patents in 3D perception, sensor fusion, and computer vision.</p>
+  <a href="{{ site.author.googlescholar }}">Google Scholar</a>
+</header>
+<section class="profile-section" aria-labelledby="papers-title">
+  <h2 id="papers-title">Publications</h2>
+  {% include profile-publications.html %}
+</section>
+<section class="profile-section" aria-labelledby="patents-title">
+  <h2 id="patents-title">Patents</h2>
+  {% include profile-patents.html %}
+</section>

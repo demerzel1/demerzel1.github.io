@@ -1,0 +1,133 @@
+# Updated September 2026 using the LinkedIn profile text supplied by the owner.
+# Publication and legacy award details are documented in README.md.
+name: Zhaoxin Meng
+role: Industrial PhD & Doctoral Researcher
+team: Einride · University of Gothenburg · Chalmers
+location: Gothenburg, Sweden
+email: zxmeng98@gmail.com
+intro: I’m an Industrial PhD at Einride and a Doctoral Researcher at Chalmers and the University of Gothenburg, with a current research focus on AI agents.
+about: My industrial PhD connects Einride with the Department of Computer Science and Engineering at Chalmers and the University of Gothenburg, supported by the Swedish Foundation for Strategic Research (SSF). My current research focuses on AI agents. Previously, I was a Principal Engineer in Robotics at HONOR and a Senior Machine Learning Engineer at DiDi Voyager.
+links:
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/zhaoxin-meng-a0b248111/
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=ECBIFj0AAAAJ&hl=en
+  - label: GitHub
+    url: https://github.com/demerzel1
+affiliations: [einride, chalmers, gu, ssf]
+focus:
+  - AI agents
+  - Robotics
+  - 3D perception
+  - Multi-modal learning
+experience:
+  - company: Einride
+    logo: einride
+    team: Industrial research
+    role: Industrial PhD
+    period: Sep 2026 — Present
+    location: Gothenburg, Sweden
+    current: true
+    detail: Industrial PhD with the joint Department of Computer Science and Engineering at Chalmers and the University of Gothenburg, funded by SSF.
+  - company: Chalmers
+    logo: chalmers
+    team: University of Technology
+    role: Doctoral Researcher
+    period: Sep 2026 — Present
+    location: Gothenburg, Sweden
+    current: true
+  - company: HONOR
+    logo: honor
+    team: Robotics
+    role: Principal Engineer in Robotics
+    period: Oct 2025 — Sep 2026
+    location: Beijing, China
+    highlights:
+      - title: 2026 World Humanoid Robot Games
+        description: As Navigation Project Manager, I led localization, perception, and planning, guiding the team to break multiple human world records in the 100 m, 400 m, and 1500 m events.
+      - title: 2026 Humanoid Robot Half Marathon
+        description: Developed and led the perception algorithms, helping the team finish in the top six and break the human world record.
+  - company: DiDi Global
+    logo: didi
+    team: Voyager Group
+    role: Senior Machine Learning Engineer
+    period: Jun 2022 — Sep 2025
+    location: Beijing, China
+    detail: Focused on occupancy tasks, scene understanding, and data for autonomous driving.
+internships:
+  - company: DiDi · Voyager
+    logo: didi
+    focus: Machine Learning Intern · Autonomous driving
+    period: Dec 2021 — Jun 2022
+  - company: ByteDance · TikTok Ads
+    logo: bytedance
+    focus: Machine Learning Intern
+    period: May 2021 — Dec 2021
+  - company: Microsoft Research Asia
+    logo: microsoft
+    focus: Research Intern · Document understanding & multi-modal learning
+    period: Nov 2020 — Apr 2021
+  - company: SenseTime · MIG
+    logo: sensetime
+    focus: Machine Learning Intern
+    period: May 2020 — Oct 2020
+  - company: ByteDance · AI Lab
+    logo: bytedance
+    focus: Machine Learning Intern · Speech synthesis & deep learning
+    period: Sep 2019 — Mar 2020
+education:
+  - institution: University of Gothenburg
+    logo: gu
+    short: GU
+    degree: PhD in Computer Science and Engineering · In progress
+    period: Sep 2026 — Present
+    note: Industrial PhD at Einride; joint department with Chalmers University of Technology.
+  - institution: Beijing University of Posts and Telecommunications
+    logo: bupt
+    short: BUPT
+    degree: Master’s degree in Computer Science
+    period: 2019 — 2022
+    note: State Key Laboratory of Networking and Switching Technology
+  - institution: Mid Sweden University
+    logo: miun
+    short: MIUN
+    degree: Computer Engineering · Exchange studies
+    period: 2018 — 2019
+  - institution: Donghua University
+    logo: dhu
+    short: DHU
+    degree: Bachelor’s degree in Network Engineering
+    period: 2015 — 2019
+    note: Top 10% of the class
+publications:
+  - title: 'MF-Net: Meta Fusion Network for 3D Object Detection'
+    authors: Zhaoxin Meng, Guiyang Luo, Quan Yuan, Jinglin Li, Fangchun Yang
+    venue: IJCNN
+    year: 2021
+    topic: 3D object detection · Sensor fusion
+    url: https://doi.org/10.1109/IJCNN52387.2021.9534374
+    link_label: View paper
+  - title: Edge-aware Fully Convolutional Network with CRF-RNN Layer for Hippocampus Segmentation
+    authors: Shaoyu Wang, Lirong Yi, Qiang Chen, Zhaoxin Meng, Huawei Dong, Zhi He
+    venue: ITAIC
+    year: 2019
+    topic: Computer vision · Medical image segmentation
+    url: https://www.proceedings.com/content/049/049879webtoc.pdf
+    link_label: View proceedings
+patents:
+  - title: An obstacle recognition method, device, vehicle and electronic equipment
+    number: CN117372997A
+    url: https://patents.google.com/patent/CN117372997A/en
+  - title: 3D object detection and recognition method based on multi-source fusion in vehicle-road collaborative scenarios
+    number: CN114332494A
+    url: https://patents.google.com/patent/CN114332494A/en
+awards:
+  - title: Excellent New Graduate Award
+    organization: DiDi Voyager
+    year: 2023
+  - title: Star of Tomorrow
+    organization: Microsoft Research Asia
+    year: 2021
+  - title: ACM-ICPC Beijing Regional · Bronze Award
+    organization: ACM International Collegiate Programming Contest
+    year: 2017

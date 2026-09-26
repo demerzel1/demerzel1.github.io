@@ -1,0 +1,8 @@
+<div class="awards-list">
+  {% for award in site.data.profile.awards %}
+  <article class="award-row">
+    <div><h3>{{ award.title }}</h3><p class="muted">{{ award.organization }}</p></div>
+    <span class="entry-date">{{ award.year }}</span>
+  </article>
+  {% endfor %}
+</div>

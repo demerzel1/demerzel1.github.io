@@ -1,0 +1,51 @@
+einride:
+  label: Einride
+  url: https://www.einride.tech/
+  logo: /images/logos/einride.svg
+  mark: /images/logos/einride-mark.png
+chalmers:
+  label: Chalmers
+  url: https://www.chalmers.se/en/
+  logo: /images/logos/chalmers.svg
+  mark: /images/logos/chalmers-emblem.svg
+gu:
+  label: University of Gothenburg
+  url: https://www.gu.se/en
+  logo: /images/logos/gu.svg
+ssf:
+  label: SSF
+  url: https://strategiska.se/en/
+  logo: /images/logos/ssf.svg
+honor:
+  label: HONOR
+  url: https://www.honor.com/global/
+  logo: /images/logos/honor.svg
+didi:
+  label: DiDi Global
+  url: https://www.didiglobal.com/
+  logo: /images/logos/didi.svg
+bytedance:
+  label: ByteDance
+  url: https://www.bytedance.com/en/
+  logo: /images/logos/bytedance.svg
+  mark: /images/logos/bytedance-mark.png
+microsoft:
+  label: Microsoft Research Asia
+  url: https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/
+  logo: /images/logos/microsoft.png
+sensetime:
+  label: SenseTime
+  url: https://www.sensetime.com/en
+  logo: /images/logos/sensetime.png
+bupt:
+  label: Beijing University of Posts and Telecommunications
+  url: https://www.bupt.edu.cn/
+  logo: /images/logos/bupt.png
+miun:
+  label: Mid Sweden University
+  url: https://www.miun.se/en/
+  logo: /images/logos/miun.png
+dhu:
+  label: Donghua University
+  url: https://www.dhu.edu.cn/
+  logo: /images/logos/dhu.png

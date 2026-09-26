@@ -1,0 +1,4 @@
+{% assign org = site.data.organizations[include.key] %}
+<span class="organization-logo organization-logo--{{ include.key }}">
+  <img src="{{ org.mark | default: org.logo | relative_url }}" alt="" width="56" height="56" loading="lazy" decoding="async">
+</span>

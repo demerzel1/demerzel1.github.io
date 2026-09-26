@@ -1,0 +1,8 @@
+<div class="patent-list">
+  {% for patent in site.data.profile.patents %}
+  <article class="patent-row">
+    <h3><a href="{{ patent.url }}">{{ patent.title }}</a></h3>
+    <p class="muted">{{ patent.number }}</p>
+  </article>
+  {% endfor %}
+</div>

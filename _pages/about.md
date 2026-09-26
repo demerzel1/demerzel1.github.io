@@ -1,47 +1,46 @@
 ---
+layout: profile
 permalink: /
-title: "Zhaoxin Meng"
-author_profile: true
-redirect_from: 
+title: About
+description: Zhaoxin Meng is an Industrial PhD at Einride and Doctoral Researcher at Chalmers and the University of Gothenburg in Gothenburg, Sweden. Current research focuses on AI agents.
+redirect_from:
   - /about/
   - /about.html
 ---
-
-I am currently a **Staff Machine Learning Engineer** at **HONOR**. 
-
-Previously, I worked as a Senior Machine Learning Engineer at **DiDi Global (Voyager Group)**. I received my Master's degree from **Beijing University of Posts and Telecommunications (BUPT)** in 2022.
-
-### 💼 Work Experience
-
-**HONOR** | *Staff Machine Learning Engineer* *Beijing, Oct 2025 - Present*
-
-**DiDi Global - Voyager Group** | *Senior Machine Learning Engineer* *Beijing, Jun 2022 - Sep 2025*
-
-**Internships**
-* **DiDi Global**: Autonomous Driving Perception (2021 - 2022)
-* **ByteDance (TikTok Ads)**: Deep Learning & CVR Prediction (2021)
-* **Microsoft Research Asia (MSRA)**: Multi-Modal Document Understanding (2020 - 2021)
-* **SenseTime**: ADAS Perception (2020)
-* **ByteDance (AI Lab)**: Speech & Deep Learning (2019 - 2020)
-
-### 🎓 Education
-
-* **Beijing University of Posts and Telecommunications (BUPT)** | *M.E. in Computer Science* (2019 - 2022)
-* **Donghua University** | *B.E. in Network Engineering* (2015 - 2019)
-* **Mid Sweden University** | *Exchange Student* (2018 - 2019)
-
-### 📝 Selected Publications & Patents
-
-**Papers**
-* **[IJCNN 2021]** **Meng Zhaoxin**, et al. *MF-NET: Meta fusion network for 3d object detection.*
-* **[ITAIC 2019]** Wang Shaoyu, ..., **Meng Zhaoxin**, et al. *Edge-aware fully convolutional network with CRF-RNN layer for hippocampus segmentation.*
-
-**Patents**
-* **[CN117372997A]** *An obstacle recognition method, device, vehicle and electronic equipment.* (2023)
-* **[CN114332494A]** *3D object detection and recognition method based on multi-source fusion in vehicle-road collaborative scenarios.* (2021)
-
-### 🏆 Honors & Awards
-
-* **Excellent New Graduate Award**, DiDi Voyager (2023)
-* **Star of Tomorrow**, Microsoft Research Asia (2021)
-* **Bronze Award**, ACM-ICPC Beijing Regional (2017)
+{% assign profile = site.data.profile %}
+<section class="intro" aria-labelledby="intro-title">
+  <h1 id="intro-title">{{ profile.name }}</h1>
+  <p class="intro-role">Industrial PhD at Einride, Doctoral Researcher at Chalmers and GU.</p>
+  <p class="muted">{{ profile.location }}</p>
+  <div class="profile-links">
+    {% for link in profile.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}
+    <a href="mailto:{{ profile.email }}">Email</a>
+  </div>
+  <p class="intro-bio">{{ profile.about }}</p>
+  <p class="muted">My background spans robotics, autonomous driving, 3D perception, and multi-modal learning.</p>
+  <div class="affiliation-logos" aria-label="Research institutions and funding">
+    {% for key in profile.affiliations %}
+    {% assign org = site.data.organizations[key] %}
+    <a class="affiliation-logo" href="{{ org.url }}">
+      <img src="{{ org.logo | relative_url }}" alt="" width="144" height="52">
+      <span>{{ org.label }}</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+<section id="experience" class="profile-section" aria-labelledby="experience-title">
+  <div class="section-topline"><h2 id="experience-title">Experience</h2><a href="{{ '/cv/' | relative_url }}">Full CV</a></div>
+  {% include profile-experience.html %}
+</section>
+<section class="profile-section" aria-labelledby="research-title">
+  <div class="section-topline"><h2 id="research-title">Selected publications</h2><a href="{{ '/publications/' | relative_url }}">All research</a></div>
+  {% include profile-publications.html %}
+</section>
+<section class="profile-section" aria-labelledby="education-title">
+  <h2 id="education-title">Education</h2>
+  {% include profile-education.html %}
+</section>
+<section class="profile-section" aria-labelledby="awards-title">
+  <h2 id="awards-title">Awards</h2>
+  {% include profile-awards.html %}
+</section>

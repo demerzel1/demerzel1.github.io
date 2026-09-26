@@ -1,152 +1,123 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Zhaoxin Meng",
+    "email": "zxmeng98@gmail.com",
+    "website": "https://zhaoxinmeng.com",
+    "summary": "I’m an Industrial PhD at Einride and a Doctoral Researcher at Chalmers and the University of Gothenburg, with a current research focus on AI agents.",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Gothenburg",
+      "countryCode": "SE"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/zhaoxin-meng-a0b248111/"
       },
       {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "network": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=ECBIFj0AAAAJ&hl=en"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "url": "https://github.com/demerzel1"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Einride",
+      "position": "Industrial PhD",
+      "summary": "Industrial PhD with the joint Department of Computer Science and Engineering at Chalmers and the University of Gothenburg, funded by SSF.",
+      "period": "Sep 2026 — Present",
+      "highlights": []
+    },
+    {
+      "company": "Chalmers",
+      "position": "Doctoral Researcher",
+      "summary": null,
+      "period": "Sep 2026 — Present",
+      "highlights": []
+    },
+    {
+      "company": "HONOR",
+      "position": "Principal Engineer in Robotics",
+      "summary": null,
+      "period": "Oct 2025 — Sep 2026",
+      "highlights": [
+        "As Navigation Project Manager, I led localization, perception, and planning, guiding the team to break multiple human world records in the 100 m, 400 m, and 1500 m events.",
+        "Developed and led the perception algorithms, helping the team finish in the top six and break the human world record."
+      ]
+    },
+    {
+      "company": "DiDi Global",
+      "position": "Senior Machine Learning Engineer",
+      "summary": "Focused on occupancy tasks, scene understanding, and data for autonomous driving.",
+      "period": "Jun 2022 — Sep 2025",
+      "highlights": []
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "institution": "University of Gothenburg",
+      "area": "PhD in Computer Science and Engineering · In progress",
+      "period": "Sep 2026 — Present",
+      "summary": "Industrial PhD at Einride; joint department with Chalmers University of Technology."
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
+      "institution": "Beijing University of Posts and Telecommunications",
+      "area": "Master’s degree in Computer Science",
+      "period": "2019 — 2022",
+      "summary": "State Key Laboratory of Networking and Switching Technology"
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "institution": "Mid Sweden University",
+      "area": "Computer Engineering · Exchange studies",
+      "period": "2018 — 2019",
+      "summary": null
+    },
+    {
+      "institution": "Donghua University",
+      "area": "Bachelor’s degree in Network Engineering",
+      "period": "2015 — 2019",
+      "summary": "Top 10% of the class"
+    }
+  ],
+  "publications": [
+    {
+      "name": "MF-Net: Meta Fusion Network for 3D Object Detection",
+      "publisher": "IJCNN",
+      "releaseDate": "2021",
+      "website": "https://doi.org/10.1109/IJCNN52387.2021.9534374"
+    },
+    {
+      "name": "Edge-aware Fully Convolutional Network with CRF-RNN Layer for Hippocampus Segmentation",
+      "publisher": "ITAIC",
+      "releaseDate": "2019",
+      "website": "https://www.proceedings.com/content/049/049879webtoc.pdf"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Excellent New Graduate Award",
+      "awarder": "DiDi Voyager",
+      "date": "2023"
+    },
+    {
+      "title": "Star of Tomorrow",
+      "awarder": "Microsoft Research Asia",
+      "date": "2021"
+    },
+    {
+      "title": "ACM-ICPC Beijing Regional · Bronze Award",
+      "awarder": "ACM International Collegiate Programming Contest",
+      "date": "2017"
     }
   ],
   "skills": [],
   "languages": [],
   "interests": [],
   "references": [],
-  "publications": [
-    {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
-    }
-  ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "presentations": [],
+  "teaching": [],
+  "portfolio": []
 }

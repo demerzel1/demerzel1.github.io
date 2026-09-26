@@ -1,0 +1,9 @@
+<div class="publication-list">
+  {% for paper in site.data.profile.publications %}
+  <article class="publication-row">
+    <h3><a href="{{ paper.url }}">{{ paper.title }}</a></h3>
+    <p class="authors">{{ paper.authors | replace: 'Zhaoxin Meng', '<strong>Zhaoxin Meng</strong>' }}</p>
+    <p class="muted">{{ paper.venue }} {{ paper.year }}</p>
+  </article>
+  {% endfor %}
+</div>

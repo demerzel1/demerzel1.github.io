@@ -1,0 +1,34 @@
+<div class="experience-list">
+  {% for job in site.data.profile.experience %}
+  <article class="experience-row organization-row">
+    {% include organization-logo.html key=job.logo %}
+    <div class="organization-content">
+      <div class="entry-heading">
+        <h3>{{ job.company }} <span class="muted">· {{ job.team }}</span></h3>
+        <p class="entry-date">{{ job.period }}</p>
+      </div>
+      <p class="job-role">{{ job.role }} <span class="muted">· {{ job.location }}</span></p>
+      {% if job.detail %}<p class="job-detail">{{ job.detail }}</p>{% endif %}
+      {% if job.highlights %}
+      <ul class="highlights">
+        {% for highlight in job.highlights %}
+        <li><strong>{{ highlight.title }}.</strong> {{ highlight.description }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</div>
+<div class="internships">
+  <h3>Earlier internships</h3>
+  {% for job in site.data.profile.internships %}
+  <div class="internship-row organization-row">
+    {% include organization-logo.html key=job.logo %}
+    <div class="organization-content entry-heading">
+      <div><h4>{{ job.company }}</h4><p>{{ job.focus }}</p></div>
+      <span class="entry-date">{{ job.period }}</span>
+    </div>
+  </div>
+  {% endfor %}
+</div>

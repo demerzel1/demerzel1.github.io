@@ -1,0 +1,12 @@
+<div class="education-list">
+  {% for school in site.data.profile.education %}
+  <article class="education-row organization-row">
+    {% include organization-logo.html key=school.logo %}
+    <div class="organization-content">
+      <div class="entry-heading"><h3>{{ school.institution }}</h3><p class="entry-date">{{ school.period }}</p></div>
+      <p>{{ school.degree }}</p>
+      {% if include.detailed and school.note %}<p class="muted">{{ school.note }}</p>{% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</div>
