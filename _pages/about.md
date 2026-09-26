@@ -54,5 +54,4 @@ redirect_from:
     <h2 id="interests-title">Personal interests</h2>
     <p>{{ profile.interests }}</p>
   </div>
-  <img class="personal-avatar" src="{{ profile.avatar | relative_url }}" alt="Illustrated avatar of Zhaoxin Meng with a robot" width="1254" height="1254" loading="lazy" decoding="async">
 </section>

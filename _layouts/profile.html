@@ -19,7 +19,10 @@
   <body class="{% if page.url == '/' %}home{% else %}inner-page{% endif %}">
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header wrap">
-      <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Zhaoxin Meng, home">Zhaoxin Meng</a>
+      <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Zhaoxin Meng, home">
+        <img class="header-avatar" src="{{ site.data.profile.avatar | relative_url }}" alt="" width="1254" height="1254">
+        <span>Zhaoxin Meng</span>
+      </a>
       <nav aria-label="Main navigation">
         <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>About</a>
         <a href="{{ '/publications/' | relative_url }}" {% if page.url == '/publications/' %}aria-current="page"{% endif %}>Research</a>

@@ -34,6 +34,6 @@ The owner supplied the latest LinkedIn profile text for this update. It is the s
 - [ITAIC 2019 proceedings contents](https://www.proceedings.com/content/049/049879webtoc.pdf): hippocampus segmentation paper title, authors, and venue.
 - Patent titles/numbers, awards, and contact links were retained from the original personal website. Patent years were omitted because the previous page did not distinguish filing and publication dates. Links go to the matching patent records.
 
-Upstream Academic Pages sample sources are preserved but excluded from the published site in `_config.yml`; they must not be mistaken for the owner’s work. The old `/about/`, `/resume`, and `/cv-json/` routes redirect to the updated pages. The homepage uses the owner-supplied portrait in the introduction and a separate illustrated avatar in the final photography interests section. The typographic monogram remains the favicon.
+Upstream Academic Pages sample sources are preserved but excluded from the published site in `_config.yml`; they must not be mistaken for the owner’s work. The old `/about/`, `/resume`, and `/cv-json/` routes redirect to the updated pages. The homepage uses the owner-supplied portrait in the introduction and a separate illustrated avatar beside the name in the site header. The typographic monogram remains the favicon.
 
 Original theme: [Academic Pages](https://github.com/academicpages/academicpages.github.io), under the repository’s MIT license.
