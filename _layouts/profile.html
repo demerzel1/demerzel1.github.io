@@ -29,7 +29,9 @@
     <main id="main" class="wrap" tabindex="-1">{{ content }}</main>
     <footer class="site-footer wrap">
       <p>© {{ site.time | date: '%Y' }} Zhaoxin Meng</p>
-      <a href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email }}</a>
+      <div class="footer-emails">
+        {% for email in site.data.profile.emails %}<p>{{ email.label }}: <a href="mailto:{{ email.address }}">{{ email.address }}</a></p>{% endfor %}
+      </div>
     </footer>
   </body>
 </html>

@@ -79,6 +79,7 @@ strong { font-weight: 600; }
 .award-row p { font-size: 13px; }
 .site-footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px 24px; border-top: 1px solid var(--line); padding: 22px 0 30px; color: var(--muted); font-size: 12px; }
 .site-footer a { color: var(--muted); }
+.footer-emails p + p { margin-top: 4px; }
 .page-intro h1 + p { margin-top: 14px; }
 .page-intro > a { display: inline-block; margin-top: 14px; font-size: 14px; }
 .cv-intro { display: flex; justify-content: space-between; gap: 24px; align-items: flex-start; }

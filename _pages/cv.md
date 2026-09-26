@@ -14,7 +14,8 @@ redirect_from:
     <h1>Zhaoxin Meng</h1>
     <p>{{ site.data.profile.role }}</p>
     <p class="muted">{{ site.data.profile.team }}</p>
-    <p class="muted">{{ site.data.profile.location }} · <a href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email }}</a></p>
+    <p class="muted">{{ site.data.profile.location }}</p>
+    {% for email in site.data.profile.emails %}<p class="muted">{{ email.label }} email: <a href="mailto:{{ email.address }}">{{ email.address }}</a></p>{% endfor %}
   </div>
   <button class="print-button" type="button" hidden>Print / Save PDF</button>
 </header>

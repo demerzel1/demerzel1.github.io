@@ -16,7 +16,7 @@ redirect_from:
       <p class="muted">{{ profile.location }}</p>
       <div class="profile-links">
         {% for link in profile.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}
-        <a href="mailto:{{ profile.email }}">Email</a>
+        {% for email in profile.emails %}<a href="mailto:{{ email.address }}">{{ email.label }} email</a>{% endfor %}
       </div>
     </div>
     <img class="profile-portrait" src="{{ profile.portrait | relative_url }}" alt="Portrait of Zhaoxin Meng" width="420" height="564" fetchpriority="high">

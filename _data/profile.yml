@@ -6,7 +6,11 @@ avatar: /images/zhaoxin-avatar.png
 role: Industrial PhD & Doctoral Researcher
 team: Einride · University of Gothenburg · Chalmers
 location: Gothenburg, Sweden
-email: zxmeng98@gmail.com
+emails:
+  - label: Personal
+    address: zxmeng98@gmail.com
+  - label: University
+    address: zhaoxinm@chalmers.se
 intro: I’m an Industrial PhD at Einride and a Doctoral Researcher at Chalmers and the University of Gothenburg, with a current research focus on AI agents.
 about: My industrial PhD connects Einride with the Department of Computer Science and Engineering at Chalmers and the University of Gothenburg, supported by the Swedish Foundation for Strategic Research (SSF). My current research focuses on AI agents. Previously, I was a Principal Engineer in Robotics at HONOR and a Senior Machine Learning Engineer at DiDi Voyager.
 links:
