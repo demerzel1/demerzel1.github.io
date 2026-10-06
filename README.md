@@ -12,7 +12,9 @@ Personal website for Zhaoxin Meng, Industrial PhD at Einride and Doctoral Resear
 - `assets/css/profile.css`: responsive styles, reduced-motion support, and print layout.
 - `_data/cv.json`: legacy structured CV data; update alongside the primary profile if this file is consumed elsewhere.
 
-Institutional logos are stored locally in `images/logos/` and configured in `_data/organizations.yml`; their official sources are recorded in `images/logos/SOURCES.md`. No JavaScript framework, npm build, external fonts, or remote image dependencies are needed for these pages. JavaScript only enables printing; navigation and all content work without it.
+Institutional logos are stored locally in `images/logos/` and configured in `_data/organizations.yml`; their official sources are recorded in `images/logos/SOURCES.md`. No JavaScript framework, npm build, external fonts, or remote image dependencies are needed for these pages. JavaScript enables printing and Google Analytics; navigation and all content work without it.
+
+Google Analytics 4 uses the owner-provided measurement ID `G-3F1VSPEHW7`, configured under `analytics` in `_config.yml`. The shared profile layout includes the Google tag once, immediately after `<head>`, through the existing analytics include. Google Tag Manager is not used. Pageviews are sent by the standard `gtag('config', ...)` call; do not add a second tag or manual pageview event. To disable analytics for local previews, use a local Jekyll configuration override setting `analytics.provider: false`.
 
 ## Local development
 
