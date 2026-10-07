@@ -2,7 +2,7 @@
 layout: profile
 permalink: /
 title: About
-description: Zhaoxin Meng is an Industrial PhD at Einride and Doctoral Researcher at Chalmers and the University of Gothenburg in Gothenburg, Sweden. Current research focuses on AI agents.
+description: Zhaoxin Meng is an Industrial PhD Student at Einride and Doctoral Researcher at Chalmers and the University of Gothenburg in Gothenburg, Sweden. Current research focuses on AI agents.
 redirect_from:
   - /about/
   - /about.html
@@ -12,7 +12,7 @@ redirect_from:
   <div class="intro-heading">
     <div class="intro-identity">
       <h1 id="intro-title">{{ profile.name }}</h1>
-      <p class="intro-role">Industrial PhD at Einride, Doctoral Researcher at Chalmers and GU.</p>
+      <p class="intro-role">Industrial PhD Student at Einride, Doctoral Researcher at Chalmers and GU.</p>
       <p class="muted">{{ profile.location }}</p>
       <div class="profile-links">
         {% for link in profile.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}

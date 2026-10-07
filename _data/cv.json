@@ -3,7 +3,7 @@
     "name": "Zhaoxin Meng",
     "email": "zxmeng98@gmail.com",
     "website": "https://zhaoxinmeng.com",
-    "summary": "I’m an Industrial PhD at Einride and a Doctoral Researcher at Chalmers and the University of Gothenburg, with a current research focus on AI agents.",
+    "summary": "I’m an Industrial PhD Student at Einride and a Doctoral Researcher at Chalmers and the University of Gothenburg, with a current research focus on AI agents.",
     "location": {
       "city": "Gothenburg",
       "countryCode": "SE"
@@ -26,8 +26,8 @@
   "work": [
     {
       "company": "Einride",
-      "position": "Industrial PhD",
-      "summary": "Industrial PhD with the joint Department of Computer Science and Engineering at Chalmers and the University of Gothenburg, funded by SSF.",
+      "position": "Industrial PhD Student",
+      "summary": "Industrial PhD Student with the joint Department of Computer Science and Engineering at Chalmers and the University of Gothenburg, funded by SSF.",
       "period": "Sep 2026 — Present",
       "highlights": []
     },
@@ -61,7 +61,7 @@
       "institution": "University of Gothenburg",
       "area": "PhD in Computer Science and Engineering · In progress",
       "period": "Sep 2026 — Present",
-      "summary": "Industrial PhD at Einride; joint department with Chalmers University of Technology."
+      "summary": "Industrial PhD Student at Einride; joint department with Chalmers University of Technology."
     },
     {
       "institution": "Beijing University of Posts and Telecommunications",

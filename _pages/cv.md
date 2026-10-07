@@ -2,7 +2,7 @@
 layout: profile
 title: Curriculum Vitae
 permalink: /cv/
-description: Professional experience, education, publications, and awards of Zhaoxin Meng, Industrial PhD at Einride and Doctoral Researcher at Chalmers and the University of Gothenburg.
+description: Professional experience, education, publications, and awards of Zhaoxin Meng, Industrial PhD Student at Einride and Doctoral Researcher at Chalmers and the University of Gothenburg.
 redirect_from:
   - /resume
   - /resume/

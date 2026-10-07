@@ -1,6 +1,6 @@
 # Zhaoxin Meng — personal website
 
-Personal website for Zhaoxin Meng, Industrial PhD at Einride and Doctoral Researcher at Chalmers in Gothenburg, Sweden. Built with Jekyll and compatible with native GitHub Pages hosting at [zhaoxinmeng.com](https://zhaoxinmeng.com).
+Personal website for Zhaoxin Meng, Industrial PhD Student at Einride and Doctoral Researcher at Chalmers in Gothenburg, Sweden. Built with Jekyll and compatible with native GitHub Pages hosting at [zhaoxinmeng.com](https://zhaoxinmeng.com).
 
 ## Edit content
 
@@ -29,7 +29,7 @@ Build for deployment with `bundle exec jekyll build`. GitHub Pages can build thi
 
 ## Content provenance — September 2026
 
-The owner supplied the latest LinkedIn profile text for this update. It is the source for the September 2026 Einride Industrial PhD and Chalmers Doctoral Researcher roles, University of Gothenburg PhD enrollment, SSF funding, HONOR Principal Engineer title and tenure, 2026 humanoid competition achievements, detailed internship dates, and education. The two current roles represent the industrial doctoral arrangement, not two separate PhD programs.
+The owner supplied the latest LinkedIn profile text for this update. It is the source for the September 2026 Einride Industrial PhD Student and Chalmers Doctoral Researcher roles, University of Gothenburg PhD enrollment, SSF funding, HONOR Principal Engineer title and tenure, 2026 humanoid competition achievements, detailed internship dates, and education. The two current roles represent the industrial doctoral arrangement, not two separate PhD programs.
 
 - [LinkedIn profile](https://www.linkedin.com/in/zhaoxin-meng-a0b248111/): full profile is login restricted. The public search summary still described the prior HONOR role at the time of the update; the newer owner-supplied text takes precedence.
 - [MF-Net paper](https://doi.org/10.1109/IJCNN52387.2021.9534374) and [IJCNN 2021 proceedings contents](https://www.proceedings.com/content/060/060367webtoc.pdf): publication title, venue, and author list.
