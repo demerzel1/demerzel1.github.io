@@ -26,7 +26,10 @@
   <div class="internship-row organization-row">
     {% include organization-logo.html key=job.logo %}
     <div class="organization-content entry-heading">
-      <div><h4>{{ job.company }}</h4><p>{{ job.focus }}</p></div>
+      <div>
+        <h4>{{ job.company }}</h4><p>{{ job.focus }}</p>
+        {% if job.supervisors %}<p>Supervised by {% for supervisor in job.supervisors %}<a href="{{ supervisor.url | escape }}">{{ supervisor.name | escape }}</a>{% unless forloop.last %} and {% endunless %}{% endfor %}.</p>{% endif %}
+      </div>
       <span class="entry-date">{{ job.period }}</span>
     </div>
   </div>
