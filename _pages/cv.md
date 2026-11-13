@@ -21,7 +21,9 @@ redirect_from:
 </header>
 <section class="profile-section">
   <h2>Profile</h2>
-  <p>{{ site.data.profile.about }}</p>
+  <div class="biography">
+    {% for paragraph in site.data.profile.about %}<p>{{ paragraph }}</p>{% endfor %}
+  </div>
   <div class="profile-links">{% for link in site.data.profile.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}</div>
 </section>
 <section class="profile-section"><h2>Experience</h2>{% include profile-experience.html %}</section>

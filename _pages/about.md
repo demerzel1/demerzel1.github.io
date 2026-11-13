@@ -21,7 +21,9 @@ redirect_from:
     </div>
     <img class="profile-portrait" src="{{ profile.portrait | relative_url }}" alt="Portrait of Zhaoxin Meng" width="420" height="564" fetchpriority="high">
   </div>
-  <p class="intro-bio">{{ profile.about }}</p>
+  <div class="intro-bio biography">
+    {% for paragraph in profile.about %}<p>{{ paragraph }}</p>{% endfor %}
+  </div>
   <p class="muted">My background spans robotics, autonomous driving, 3D perception, and multi-modal learning.</p>
   <div class="affiliation-logos" aria-label="Research institutions and funding">
     {% for key in profile.affiliations %}
